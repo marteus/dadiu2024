@@ -1,0 +1,7 @@
+Library/
+/*.sln
+Temp/
+UserSettings/
+.vscode/
+.DS_Store
+Logs/
