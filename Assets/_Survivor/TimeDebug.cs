@@ -13,11 +13,11 @@ public class TimeDebug : MonoBehaviour
         {
             Time.timeScale = 0.1f;
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha2))
+        else if (Input.GetKeyDown(KeyCode.Alpha3))
         {
             Time.timeScale = 1.0f;
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha2))
+        else if (Input.GetKeyDown(KeyCode.Alpha4))
         {
             Time.timeScale = 2f;
         }

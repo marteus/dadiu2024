@@ -1,18 +1,34 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(CharacterController))]
 public class Mob : MonoBehaviour
 {
+
+    public static List<Mob> Actives = new List<Mob>();
+
+
+
     [SerializeField] MobSettings _settings;
 
     CharacterController _controller;
 
-    Character _target;
+    Hero _target;
 
     void Start()
     {
         _controller = GetComponent<CharacterController>();
-        _target = Object.FindAnyObjectByType<Character>();
+        _target = Object.FindAnyObjectByType<Hero>();
+    }
+
+    void OnEnable()
+    {
+        Actives.Add(this);
+    }
+
+    void OnDisable()
+    {
+        Actives.Remove(this);
     }
     
     void Update()
