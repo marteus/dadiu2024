@@ -5,6 +5,12 @@ public class Level : MonoBehaviour
 {
     public static LevelConfig CurrentLevel { get; private set; }
 
+    [RuntimeInitializeOnLoadMethod]
+    static void ResetDomain()
+    {
+        CurrentLevel = null;
+    }
+
     [SerializeField] LevelConfig _config;
 
 
