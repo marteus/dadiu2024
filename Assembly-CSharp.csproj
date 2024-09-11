@@ -68,7 +68,6 @@
     <Compile Include="Assets/_Survivor/TimeDebug.cs" />
     <Compile Include="Assets/_Survivor/Scripts/LevelConfig.cs" />
     <Compile Include="Assets/_Survivor/Scripts/HeroMotorSettings.cs" />
-    <Compile Include="Assets/_Survivor/Scripts/SpawnWavesSettings.cs" />
     <Compile Include="Assets/_Survivor/Scripts/LevelLoader.cs" />
     <Compile Include="Assets/_Survivor/Scripts/HealthUI.cs" />
     <Compile Include="Assets/_Survivor/Scripts/HeroSpawnPoint.cs" />
@@ -76,10 +75,8 @@
     <Compile Include="Assets/_Survivor/Scripts/Health.cs" />
     <Compile Include="Assets/_Survivor/Scripts/Hero.cs" />
     <Compile Include="Assets/_Survivor/Scripts/HeroMotor.cs" />
-    <Compile Include="Assets/_Survivor/Scripts/SpawnPatternSettings.cs" />
     <Compile Include="Assets/_Survivor/Scripts/GameOverScreen.cs" />
     <Compile Include="Assets/_Survivor/Scripts/Bullet.cs" />
-    <Compile Include="Assets/_Survivor/Scripts/PlayerTrigger.cs" />
     <Compile Include="Assets/_Survivor/Scripts/Mob.cs" />
     <Compile Include="Assets/_Survivor/Scripts/Weapon.cs" />
     <Compile Include="Assets/_Survivor/Scripts/Game.cs" />

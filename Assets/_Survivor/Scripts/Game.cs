@@ -8,14 +8,6 @@ public class Game : MonoBehaviour
     [Header("Debug")]
     [SerializeField] LevelConfig _defaultLevel;
 
-    enum GameState
-    {
-        Playing,
-        GameOver,
-    }
-
-    GameState _currentState;
-
     void Start()
     {
         if (Level.CurrentLevel == null)
@@ -30,7 +22,6 @@ public class Game : MonoBehaviour
         _hero.Health.Died.AddListener(()=>
         {
             _gameOver.gameObject.SetActive(true);
-            _currentState = GameState.GameOver;
         });
 
     }
