@@ -1,5 +1,8 @@
-# Assignments
+# Assignment
 
+Implement features in this project (or another of your choosing) and make a short and sweet presentation on Friday 13th of September from 13-16.
+
+## Feature suggestions
 
 Game mechanics
 
@@ -26,11 +29,8 @@ Tools
 
 ### [Best practice guides](https://docs.unity3d.com/Manual/best-practice-guides.html)
 
-- [80 tips to improve workflow in 2022 LTS](https://unity.com/resources/improve-workflow-unity-2022-lts-ebook?isGated=false)
-  - Developer workflow section. Page 63-86
-- [Create modular game architecture](https://unity.com/resources/create-modular-game-architecture-with-scriptable-objects-ebook?isGated=false)
-- [Create a C# style guide](https://unity.com/resources/create-code-c-sharp-style-guide-e-book?isGated=false)
-- [Garbage collection best practices](https://docs.unity3d.com/Manual/performance-garbage-collection-best-practices.html)
+- [80 tips to improve workflow in 2022 LTS](https://unity.com/resources/improve-workflow-unity-2022-lts-ebook?isGated=false) 
+- [Create modular game architecture]](https://unity.com/resources/create-modular-game-architecture-with-scriptable-objects-ebook?isGated=false)
 
-## Tech art
-- [The URP pipeline cookbook](https://unity.com/resources/the-universal-render-pipeline-cookbook-unity-2022-lts-edition?isGated=false)
+- [Garbage collection best practices](https://docs.unity3d.com/Manual/performance-garbage-collection-best-practices.html)
+- 
